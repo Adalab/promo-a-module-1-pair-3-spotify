@@ -1,7 +1,34 @@
+:root {
+    --black-background: black;
+}
+
 .header {
-    background-color: black;
+    background-color: var(--black-background);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
 }
 
 .logo-header {
-    max-width: 15vw;
+    width: 15vw;
+}
+
+.menu-icon {
+    max-width: 5vw;
+}
+
+.menu {
+    display: none;
+}
+
+.hero {
+    background-color: lightskyblue;
+    color: white;
+    
+    /* margin: 0 15px; */
+}
+
+.footer {
+    background-color: var(--black-background);
 }
