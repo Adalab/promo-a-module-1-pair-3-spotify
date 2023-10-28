@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
+
 <body>
     <header class="header">
-        <img src="../images/logo.png" alt="Logo Spotify">
-        <img src="../images/menu-icon.png" alt="Icono menú">
-        <nav class="menu">
+        <img class="logo-header" src="../images/logo.png" alt="Logo Spotify">
+        <img class="menu-icon" src="../images/menu-icon.png" alt="Icono menú">
+        <nav class="menu" aria-label="top-menu">
             <a href="#">Premium</a>
             <a href="#">Ayuda</a>
             <a href="#">Descargar</a>
@@ -18,49 +21,53 @@
             <a href="#">Iniciar sesión</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section class="hero">
             <h1>Prueba Premium grátis 3 meses.</h1>
             <p>Escucha millones de canciones sin anuncios, a la carta y sin conexión.</p>
             <button class="button plans" href="#">VER PLANES</button>
-            <p>Rigen términos y condiciones. Los tres meses grátis no están disponibles para usarios que ya hayan sido Premium.</p>
+            <p>Rigen términos y condiciones. Los tres meses grátis no están disponibles para usarios que ya hayan sido
+                Premium.</p>
         </section>
-        <section>
+        <section class="reasons">
             <h2>¿Por qué pasarte a Premium?</h2>
-            <article class="article">
-                <img src="../images/benefit-1.png" alt="Descarga música">
-                <h3>Descarga música.</h3>
-                <p>Llévala siempre contigo.</p>
-            </article>
-            <article class="article">
-                <img src="../images/benefit-2.png" alt="Sin anuncios">
-                <h3>Sin anuncios.</h3>
-                <p>Disfruta de música sin interrupciones.</p>
-            </article>
-            <article class="article">
-                <img src="../images/benefit-3.png" alt="Escucha lo que quieras">
-                <h3>Escucha lo que quieras.</h3>
-                <p>Incluso en el móvil.</p>
-            </article>
-            <article class="article">
-                <img src="../images/benefit-4.png" alt="Salta las canciones">
-                <h3>Salta todas las canciones que quieras.</h3>
-                <p>Simplemente dale a siguiente.</p>
-            </article>
+            <div class="reasons-container">
+                <article class="article">
+                    <img class="benefit" src="../images/benefit-1.png" alt="Descarga música">
+                    <h3>Descarga música.</h3>
+                    <p>Llévala siempre contigo.</p>
+                </article>
+                <article class="article">
+                    <img class="benefit" src="../images/benefit-2.png" alt="Sin anuncios">
+                    <h3>Sin anuncios.</h3>
+                    <p>Disfruta de música sin interrupciones.</p>
+                </article>
+                <article class="article">
+                    <img class="benefit" src="../images/benefit-3.png" alt="Escucha lo que quieras">
+                    <h3>Escucha lo que quieras.</h3>
+                    <p>Incluso en el móvil.</p>
+                </article>
+                <article class="article">
+                    <img class="benefit" src="../images/benefit-4.png" alt="Salta las canciones">
+                    <h3>Salta todas las canciones que quieras.</h3>
+                    <p>Simplemente dale a siguiente.</p>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <div class="country">España
-            <img src="../images/es.svg" alt="Bandera de España">
-        </div> 
+            <img class="spain" src="../images/es.svg" alt="Bandera de España">
+        </div>
         <div class="bottom-menu">
-            <nav>
+            <nav aria-label="bottom-menu">
                 <a href="#">Legal</a>
                 <a href="#">Cookies</a>
-                <a href="#">Información sobre los anuncios</a> 
+                <a href="#">Información sobre los anuncios</a>
             </nav>
             <p>©2019 Spotify AB</p>
         </div>
     </footer>
 </body>
+
 </html>
